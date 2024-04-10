@@ -1,0 +1,54 @@
+### 11762 CBIR: INSTRUCTIONS FOR SETTING UP THE DEVELOPMENT TOOLKIT
+
+1. Install Anaconda (https://www.anaconda.com/products/individual) or Miniconda (https://docs.conda.io/en/latest/miniconda.html) for your operating system.
+
+2. Unzip this zip file into a writable place of your operating system
+
+3. Import the provided environment:
+
+conda env create -f iric.yml
+
+It includes, among other packages:
+- Python 3.9.7
+- Numpy
+- Matplotlib
+- SciPy
+- SciKit-Learn 
+- Pandas 
+- Jupyter Notebooks
+- OpenCV (including contrib) 4.5.5.62
+
+4. Activate the environment:
+
+conda activate iric
+
+5. Download the INRIA Holidays datasets (normal and mini versions):
+
+Holidays Mini:
+https://uibes-my.sharepoint.com/:u:/g/personal/egf350_id_uib_eu/ESD-5xGCnm1Jsn-H9PDWN7ABL5U9Crx_De-eru3aATAFvQ
+
+Holidays:
+https://uibes-my.sharepoint.com/:u:/g/personal/egf350_id_uib_eu/Ef38Lm_85YRPs5E6JF2ffo8BrRrOMcwNbgD0FavzizZ6xw
+
+These datasets should be then unzipped into the root directory of the development tookit.
+
+6. Assignments should be also unzipped in the root directory of the development toolkit.
+
+In summary, your development toolkit folder should look like this:
+A1
+A2
+A3
+...
+holidays
+holidays_mini
+iric_utils
+iric.yml
+README
+
+7. Go to the root directory of your development toolkit and then launch notebooks from there:
+
+jupyter notebook
+
+8. Develop each assignment following the particular instructions for each of them.
+
+9. Submit your assigment as indicated.
